@@ -8,7 +8,7 @@ def index(request):
 
 
 def kakaopay(request):
-    url = 'http://localhost:3000/expresskakao'
+    url = 'http://192.168.0.2:3000/withDjango/kakaopay'
     res = requests.get(url)
     return HttpResponse(content=res)
 

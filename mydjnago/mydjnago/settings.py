@@ -25,7 +25,7 @@ SECRET_KEY = '$q-4*k%^u*5m-015)r%+t9o8a7x_0dcmy3r&=$47-hsn$kx!^q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
